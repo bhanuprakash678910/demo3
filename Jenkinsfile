@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-         echo "hello"
+          sh 'cat a'
       }
     }
   }
